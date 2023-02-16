@@ -8,6 +8,7 @@
 }
 
 .input-container {
+  border: 1px solid transparent;
   font-weight: var(--font-weigth-input);
   position: relative;
   margin-bottom: 1rem;
@@ -64,7 +65,10 @@
 }
 
 .input-message-error {
-  display: none;
+  display: block;
+  color: transparent;
+  font-size: 0.8rem;
+  margin: 0;
 }
 
 .input-container--invalid .input-message-error {
